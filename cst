@@ -91,3 +91,16 @@ Updater (Installer only):
 
 
 
+
+
+Application LB 
+
+sudo yum update -y
+
+yum install httpd
+
+sudo systemctl enable httpd
+
+sudo systemctl is-enabled httpd
+
+sudo nano /var/www/html/index.html
